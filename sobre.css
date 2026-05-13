@@ -1,0 +1,410 @@
+.hero-sobre {
+min-height: 90vh !important;
+}
+
+.hero-sobre .containerhero {
+min-height: calc(90vh - 85px) !important;
+justify-content: flex-end !important;
+align-items: flex-start !important;
+text-align: left !important;
+display: flex !important;
+flex-direction: column !important;
+}
+
+.hero-sobre .heroimg {
+object-position: center 30% !important;
+}
+
+.hero-sobre .herotitulo,
+.hero-sobre .herodescricao {
+position: relative;
+z-index: 2;
+text-align: left !important;
+}
+
+.hero-sobre .herotitulo {
+max-width: 560px !important;
+text-align: left !important;
+font-size: clamp(2rem, 5vw, 3.5rem) !important;
+margin-left: 0 !important;
+margin-right: auto !important;
+}
+
+.hero-sobre .herodescricao {
+max-width: 480px !important;
+text-align: left !important;
+margin-left: 0 !important;
+margin-right: auto !important;
+}
+
+.sn-titulo-gold {
+font-family: 'Instrument Sans';
+font-size: clamp(1.5rem, 3vw, 2.2rem);
+font-weight: 700;
+color: var(--gold);
+text-align: center;
+line-height: 1.25;
+margin-bottom: 48px;
+}
+
+.sn-titulo-grande {
+font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+}
+
+.sn-fundadora {
+background: var(--bg-dark);
+padding: 80px 24px;
+}
+
+.sn-fundadora .container {
+max-width: 1100px;
+}
+
+.sn-bio-grid {
+display: grid;
+grid-template-columns: 320px 1fr;
+gap: 56px;
+align-items: start;
+}
+
+.sn-bio-foto {
+border-radius: var(--radius-md);
+overflow: hidden;
+aspect-ratio: 3/4;
+background: var(--bg-card);
+border: 1px solid rgba(212, 168, 67, 0.12);
+}
+
+.sn-bio-foto img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: top center;
+display: block;
+}
+
+.sn-bio-texto {
+display: flex;
+flex-direction: column;
+gap: 24px;
+padding-top: 8px;
+}
+
+.sn-bio-texto p {
+font-size: 0.96rem;
+color: var(--text-secondary);
+line-height: 1.8;
+text-align: left;
+}
+
+.sn-bio-texto p strong {
+color: var(--gold-light);
+font-weight: 600;
+}
+
+.sn-empresa {
+background: var(--bg-section);
+padding: 80px 24px;
+}
+
+.sn-empresa .container {
+max-width: 1100px;
+}
+
+.sn-empresa-midia {
+width: 100%;
+aspect-ratio: 16/7;
+background: var(--bg-card);
+border-radius: var(--radius-md);
+overflow: hidden;
+margin-bottom: 56px;
+border: 1px solid rgba(212, 168, 67, 0.08);
+}
+
+.sn-empresa-midia img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+.sn-empresa-textos {
+display: flex;
+flex-direction: column;
+gap: 24px;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.sn-empresa-textos p {
+font-size: 0.96rem;
+color: var(--text-secondary);
+line-height: 1.85;
+text-align: left;
+}
+
+.sn-empresa-textos p strong {
+color: var(--gold-light);
+font-weight: 600;
+}
+
+.sn-missao {
+background: var(--bg-dark);
+padding: 80px 24px;
+}
+
+.sn-missao .container {
+max-width: 1100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.sn-missao-img {
+width: 100%;
+aspect-ratio: 16/7;
+background: var(--bg-card);
+border-radius: var(--radius-md);
+overflow: hidden;
+margin-bottom: 56px;
+border: 1px solid rgba(212, 168, 67, 0.08);
+}
+
+.sn-missao-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+.sn-missao-textos {
+display: flex;
+flex-direction: column;
+gap: 24px;
+max-width: 900px;
+text-align: center;
+margin: 0 auto;
+}
+
+.sn-missao-textos p {
+font-size: 0.96rem;
+color: var(--text-secondary);
+line-height: 1.85;
+text-align: left;
+}
+
+.sn-missao-textos p strong {
+color: var(--gold-light);
+font-weight: 600;
+}
+
+.sn-cta {
+background: var(--bg-section);
+padding: 96px 24px;
+text-align: center;
+border-top: 1px solid rgba(212, 168, 67, 0.1);
+}
+
+.sn-cta .container {
+max-width: 700px;
+}
+
+.gold-line {
+width: 60px;
+height: 2px;
+background: linear-gradient(135deg, #E8C060, #C9932A);
+border-radius: 2px;
+margin: 0 auto 32px;
+}
+
+.sn-cta-titulo {
+font-family: 'Instrument Sans';
+font-size: clamp(1.8rem, 4vw, 2.8rem);
+font-weight: 700;
+color: var(--text-primary);
+margin-bottom: 20px;
+line-height: 1.15;
+}
+
+.sn-cta-desc {
+font-size: 0.96rem;
+color: var(--text-secondary);
+line-height: 1.8;
+margin-bottom: 36px;
+}
+
+@media (max-width: 1200px) {
+.sn-fundadora .container,
+.sn-empresa .container,
+.sn-missao .container,
+.sn-cta .container {
+padding-left: 5vw;
+padding-right: 5vw;
+}
+}
+
+@media (max-width: 992px) {
+.sn-bio-grid {
+gap: 40px;
+}
+
+.sn-bio-foto {
+max-width: 280px;
+margin: 0 auto;
+}
+}
+
+@media (max-width: 768px) {
+.hero-sobre {
+min-height: 65vh !important;
+}
+
+.hero-sobre .containerhero {
+min-height: calc(65vh - 64px) !important;
+justify-content: center !important;
+padding-top: 80px !important;
+}
+
+.hero-sobre .herotitulo {
+font-size: 2.4rem !important;
+max-width: 100% !important;
+margin-left: 0 !important;
+}
+
+.hero-sobre .herodescricao {
+font-size: 1rem !important;
+max-width: 100% !important;
+line-height: 1.6 !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+
+.sn-bio-grid {
+grid-template-columns: 1fr;
+gap: 32px;
+}
+
+.sn-bio-foto {
+aspect-ratio: 1/1;
+max-width: 280px;
+margin: 0 auto;
+}
+
+.sn-empresa-midia {
+aspect-ratio: 4/3;
+}
+
+.sn-missao-img {
+aspect-ratio: 4/3;
+}
+
+.sn-titulo-gold {
+font-size: 1.6rem;
+margin-bottom: 36px;
+}
+
+.sn-titulo-grande {
+font-size: 1.5rem;
+}
+
+.sn-missao-textos {
+text-align: left;
+}
+
+.sn-missao-textos p {
+text-align: left;
+}
+
+.sn-fundadora,
+.sn-empresa,
+.sn-missao {
+padding: 60px 20px;
+}
+}
+
+@media (max-width: 600px) {
+.hero-sobre .herotitulo {
+font-size: 2.2rem !important;
+}
+
+.hero-sobre .herodescricao {
+font-size: 0.95rem !important;
+}
+
+.sn-bio-foto {
+max-width: 240px;
+}
+
+.sn-bio-texto {
+gap: 18px;
+}
+
+.sn-empresa-textos,
+.sn-missao-textos {
+gap: 18px;
+}
+}
+
+@media (max-width: 480px) {
+.hero-sobre {
+min-height: 55vh !important;
+}
+
+.hero-sobre .containerhero {
+min-height: calc(55vh - 64px) !important;
+}
+
+.hero-sobre .herotitulo {
+font-size: 2rem !important;
+max-width: 95% !important;
+}
+
+.hero-sobre .herodescricao {
+font-size: 0.9rem !important;
+line-height: 1.5 !important;
+max-width: 95% !important;
+}
+
+.sn-fundadora, .sn-empresa, .sn-missao {
+padding: 48px 16px;
+}
+
+.sn-cta {
+padding: 64px 20px;
+}
+
+.sn-cta-titulo {
+font-size: 1.6rem;
+}
+
+.sn-bio-texto p, .sn-empresa-textos p, .sn-missao-textos p {
+font-size: 0.88rem;
+}
+
+.sn-titulo-gold {
+font-size: 1.4rem;
+margin-bottom: 28px;
+}
+
+.sn-bio-foto {
+max-width: 200px;
+}
+}
+
+@media (max-width: 380px) {
+.hero-sobre .herotitulo {
+font-size: 1.8rem !important;
+}
+
+.hero-sobre .herodescricao {
+font-size: 0.85rem !important;
+}
+
+.sn-bio-foto {
+max-width: 180px;
+}
+
+.sn-cta-titulo {
+font-size: 1.4rem;
+}
+}

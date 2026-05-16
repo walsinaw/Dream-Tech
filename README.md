@@ -6,7 +6,7 @@ A DreamTech nasceu com a proposta de unir tecnologia, inovação e design modern
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas (até o momento)
 
 🖥️ HTML5
 🎨 CSS3

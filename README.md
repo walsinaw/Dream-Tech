@@ -20,14 +20,15 @@ A DreamTech nasceu com a proposta de unir tecnologia, inovação e design modern
 ```bash
 📦 dreamtech-site
  ┣ 📂 assets
- ┃ ┣ 📂 images
+ ┃ ┣ 📂 img
  ┃ ┗ 📂 icons
  ┣ 📜 index.html
  ┣ 📜 sobre.html
  ┣ 📜 servicos.html
- ┣ 📜 contato.html
- ┣ 📜 style.css
- ┗ 📜 script.js
+ ┣ 📜 index.css
+ ┣ 📜 sobre.css
+ ┣ 📜 servicos.css
+ ┗ 📜 menu.js
 ```
 
 ---

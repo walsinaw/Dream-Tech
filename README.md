@@ -56,7 +56,7 @@ A DreamTech nasceu com a proposta de unir tecnologia, inovação e design modern
 
 ## 🌎 Acesse o site
 
-🔗 [dreamtechbrasil.com.br]
+🔗 www.dreamtechbrasil.com.br
 
 ---
 

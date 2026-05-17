@@ -233,6 +233,11 @@ line-height: 1.8;
 margin-bottom: 36px;
 }
 
+.sn-cta-titulo strong {
+color: var(--gold-light);
+font-weight: 600;
+}
+
 @media (max-width: 1200px) {
 .sn-fundadora .container,
 .sn-empresa .container,

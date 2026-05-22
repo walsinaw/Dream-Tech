@@ -37,6 +37,23 @@ overflow-x: hidden;
 max-width: 100%;
 }
 
+.efeito-saibamais {
+opacity: 0;
+animation: fadeSlideUp 2.3s ease forwards;
+animation-delay: 1.2s;
+}
+
+@keyframes fadeSlideUp {
+from {
+opacity: 0;
+transform: translateY(90px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
 img, video {
 display: block;
 max-width: 100%;

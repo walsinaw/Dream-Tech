@@ -104,8 +104,9 @@ background: var(--gold);
 transition: width var(--transition);
 }
 
-.navlink:hover {
-color: var(--gold-light);
+.navlink:hover,
+.navlink.active {
+color: var(--gold) !important;
 }
 
 .navlink:hover::after {

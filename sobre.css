@@ -15,6 +15,11 @@ flex-direction: column !important;
 object-position: center 30% !important;
 }
 
+.navlink:hover,
+.navlink.active {
+color: var(--gold) !important;
+}
+
 .hero-sobre .herotitulo,
 .hero-sobre .herodescricao {
 position: relative;

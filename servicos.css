@@ -128,12 +128,12 @@ box-shadow: -5px 0 30px rgba(0, 0, 0, 0.5);
 
 .menu-close {
 position: absolute;
-top: 16px;
-right: 16px;
+top: 20px;
+right: 25px;
 background: none;
 border: none;
-color: #fff;
-font-size: 22px;
+color: var(--gold);
+font-size: 30px;
 cursor: pointer;
 padding: 4px 8px;
 line-height: 1;

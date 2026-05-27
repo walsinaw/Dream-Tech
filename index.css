@@ -40,7 +40,7 @@ max-width: 100%;
 .efeito-saibamais {
 opacity: 0;
 animation: fadeSlideUp 2.3s ease forwards;
-animation-delay: 1.2s;
+animation-delay: 1.5s;
 }
 
 @keyframes fadeSlideUp {
@@ -162,6 +162,19 @@ z-index: 200;
 padding: 100px 32px 32px;
 transition: right 0.3s ease;
 box-shadow: -5px 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.menu-close {
+position: absolute;
+top: 16px;
+right: 16px;
+background: none;
+border: none;
+color: var(--gold);
+font-size: 22px;
+cursor: pointer;
+padding: 4px 8px;
+line-height: 1;
 }
 
 .mobile-menu.active {

@@ -19,15 +19,16 @@ A DreamTech nasceu com a proposta de unir tecnologia, inovação e design modern
 
 ```bash
 📦 dreamtech-site
- ┣ 📂 assets
  ┃ ┣ 📂 img
- ┃ ┗ 📂 icons
  ┣ 📜 index.html
  ┣ 📜 sobre.html
- ┣ 📜 servicos.html
+ ┣ 📜 solucoes.html
+ ┣ 📜 carregador.html
  ┣ 📜 index.css
  ┣ 📜 sobre.css
- ┣ 📜 servicos.css
+ ┣ 📜 solucoes.css
+ ┣ 📜 carregador.css
+ ┣ 📜 revelal.js
  ┗ 📜 menu.js
 ```
 

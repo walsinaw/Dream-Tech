@@ -149,7 +149,7 @@ flex-direction: column;
 gap: 24px;
 }
 
-.mobile-menu .mobile-nav a {
+.mobile-menu .mobile-nav > a {
 color: var(--text-primary);
 text-decoration: none;
 font-size: 1.2rem;
@@ -159,8 +159,8 @@ border-bottom: 1px solid rgba(212, 168, 67, 0.2);
 transition: color var(--transition);
 }
 
-.mobile-menu .mobile-nav a:hover,
-.mobile-menu .mobile-nav a.active {
+.mobile-menu .mobile-nav > a:hover,
+.mobile-menu .mobile-nav > a.active {
 color: var(--gold);
 }
 

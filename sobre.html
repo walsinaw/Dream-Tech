@@ -15,33 +15,63 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="index.html" class="headerlogo">
-                <img src="img/logoheader (2).png" alt="Dream Tech">
-            </a>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+    <div class="container">
+        <a href="/" class="headerlogo"><img src="img/logoheader (2).png" alt="Dream Tech"></a>
+        <div class="hamburger" aria-label="Abrir menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="headernav">
+            <a href="index.html" class="navlink">Inicio</a>
+            <div class="nav-dropdown">
+                <a href="solucoes.html" class="navlink nav-dropdown-toggle">
+                    <span>Soluções</span>
+                    <span class="dropdown-arrow"></span></a>
+                <div class="nav-dropdown-menu">
+                    <a href="automacao.html">Automação</a>
+                    <a href="iluminacao.html">Iluminação Inteligente</a>
+                    <a href="cameras.html">Smart Câmeras</a>
+                    <a href="fechaduras.html">Fechaduras Digitais</a>
+                    <a href="som.html">Sistema de Som</a>
+                    <a href="flat-tv.html">Flat TV</a>
+                    <a href="gas-fumaca.html">Detecção de Gás e Fumaça</a>
+                    <a href="climatizacao.html">Climatização Inteligente</a>
+                    <a href="solucoes.html" class="vertudo">Ver todas</a>
+                </div>
             </div>
-            <nav class="headernav">
-                <a href="index.html" class="navlink">Inicio</a>
-                <a href="solucoes.html" class="navlink">Soluções</a>
-                <a href="sobre.html" class="navlink active" style="color: var(--gold);">Sobre Nós</a>
-                <a href="carregador.html" class="navlink">Carregadores</a>
-            </nav>
-        </div>
-        <div class="mobile-menu">
-        <button class="menu-close" aria-label="Fechar menu">✕</button>
-        <nav class="mobile-nav">
-            <a href="index.html" class="active">Inicio</a>
-            <a href="solucoes.html">Soluções</a>
-            <a href="sobre.html">Sobre Nós</a>
-            <a href="carregador.html">Carregadores</a>
+            <a href="carregador.html" class="navlink">Carregadores</a>
+            <a href="sobre.html" class="navlink" style="color: var(--gold);">Sobre Nós</a>
+            <a href="blog.html" class="navlink">Blog</a>
         </nav>
-        </div>
-        <div class="menu-overlay"></div>
-    </header>
+    </div>
+    <div class="menu-overlay"></div>
+    <div class="mobile-menu">
+        <button class="menu-close" aria-label="Fechar menu" type="button">✕</button>
+        <nav class="mobile-nav">
+            <a href="index.html">Inicio</a>
+            <div class="mobile-dropdown">
+                <button type="button" class="mobile-dropdown-toggle">
+                    <span>Soluções</span>
+                    <span class="mobile-dropdown-arrow"></span></button>
+                <div class="mobile-dropdown-menu">
+                    <a href="automacao.html">Automação</a>
+                    <a href="iluminacao.html">Iluminação Inteligente</a>
+                    <a href="cameras.html">Smart Câmeras</a>
+                    <a href="fechaduras.html">Fechaduras Digitais</a>
+                    <a href="som.html">Sistema de Som</a>
+                    <a href="flat-tv.html">Flat TV</a>
+                    <a href="gas-fumaca.html">Detecção de Gás e Fumaça</a>
+                    <a href="climatizacao.html">Climatização Inteligente</a>
+                    <a href="solucoes.html" class="mobile-ver-todas">Ver todas as soluções</a>
+                </div>
+            </div>
+            <a href="carregador.html">Carregadores</a>
+            <a href="sobre.html" style="color: var(--gold);">Sobre Nós</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </div>
+</header>
 
     <section class="hero hero-sobre">
         <div class="containerhero">

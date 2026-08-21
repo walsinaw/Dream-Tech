@@ -5,148 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="A Dream Tech Brasil é especializada em automação residencial, sistemas inteligentes, câmeras de segurança, carregadores para veículos elétricos, redes, infraestrutura e soluções tecnológicas para residências e empresas em Pelotas e região.">
     <link rel="icon" type="image/x-icon" href="img/logo.png">
-    <title>Dream Tech Brasil | Automação Residencial e Segurança</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
+    <title>Dream Tech Brasil | Automação Residencial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="reveal.js" defer></script>
 </head>
 <body>
-
-    <header class="header">
-        <div class="container">
-            <a href="/" class="headerlogo">
-                <img src="img/logoheader (2).png" alt="Dream Tech">
-            </a>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+<header class="header">
+    <div class="container">
+        <a href="/" class="headerlogo"><img src="img/logoheader (2).png" alt="Dream Tech"></a>
+        <div class="hamburger" aria-label="Abrir menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="headernav">
+            <a href="index.html" class="navlink" style="color: var(--gold);">Inicio</a>
+            <div class="nav-dropdown">
+                <a href="solucoes.html" class="navlink nav-dropdown-toggle">
+                    <span>Soluções</span>
+                    <span class="dropdown-arrow"></span></a>
+                <div class="nav-dropdown-menu">
+                    <a href="automacao.html">Automação</a>
+                    <a href="iluminacao.html">Iluminação Inteligente</a>
+                    <a href="cameras.html">Smart Câmeras</a>
+                    <a href="fechaduras.html">Fechaduras Digitais</a>
+                    <a href="som.html">Sistema de Som</a>
+                    <a href="flat-tv.html">Flat TV</a>
+                    <a href="gas-fumaca.html">Detecção de Gás e Fumaça</a>
+                    <a href="climatizacao.html">Climatização Inteligente</a>
+                    <a href="solucoes.html" class="vertudo">Ver todas</a>
+                </div>
             </div>
-            <nav class="headernav">
-                <a href="index.html" class="navlink" style="color: var(--gold);">Inicio</a>
-                <a href="solucoes.html" class="navlink">Soluções</a>
-                <a href="sobre.html" class="navlink">Sobre Nós</a>
-                <a href="carregador.html" class="navlink">Carregadores</a>
-            </nav>
-        </div>
-        <div class="mobile-menu">
-            <button class="menu-close" aria-label="Fechar menu">✕</button>
-            <nav class="mobile-nav">
-                <a href="index.html" class="active">Inicio</a>
-                <a href="solucoes.html">Soluções</a>
-                <a href="sobre.html">Sobre Nós</a>
-                <a href="carregador.html">Carregadores</a>
-            </nav>
-        </div>
-        <div class="menu-overlay"></div>
-    </header>
-    <section class="hero hero-index" id="inicio">
-        <div class="containerhero efeitohero">
-            <img src="img/saladeestar.png" alt="Sala de estar inteligente" class="heroimg efeitoimg">
-            <h1 class="herotitulo efeito-titulo">
-                Sua casa mais<br />
-                <span class="herotituloaccent">inteligente</span>
-            </h1>
-            <p class="herodescricao efeito-descricao">
-                Transforme sua casa em um espaço inteligente que trabalha por você. Com a automação residencial, você elimina tarefas do dia a dia e ganha mais tempo para aproveitar o que realmente importa: momentos com a família, descanso e qualidade de vida.
-            </p>
-            <a href="#produtos" class="saibamais efeito-saibamais">Saiba mais</a>
-        </div>
-    </section>
-    <section class="orcamento" id="orcamento">
-        <div class="valuetext">
-            <h2 class="tituloorcamento">
-                Seu acesso ao futuro começa agora
-            </h2>
-            <p class="descricaoorcamento">
-                A automação de ambientes é perfeita para quem busca mais tecnologia, conforto e eficiência no dia a dia. Integre iluminação, segurança, climatização e áudio/vídeo em um único sistema e tenha controle completo por voz ou aplicativo. Mais praticidade, economia de energia e valorização para o seu imóvel.
-            </p>
-            <a href="https://wa.link/hc1ej9" target="_blank" class="btn-orcamento">Faça seu orçamento</a>
-        </div>
-    </section>
-    <section class="sugestaoprodutos" id="produtos">
-        <h2 class="tituloprodutos">Controlar sua casa de onde estiver. Quando quiser.</h2>
-        <p class="descricaoprodutos">
-            Com soluções de casa inteligente, você monitora ambientes, ajusta a iluminação, acompanha o consumo de energia e gerencia seus dispositivos com total praticidade. Tudo direto do seu smartphone ou com simples comandos de voz, deixando sua rotina muito mais rápida e intuitiva. Mais controle, mais conforto e a liberdade de ter sua casa funcionando do seu jeito, onde você estiver.
+            <a href="carregador.html" class="navlink">Carregadores</a>
+            <a href="sobre.html" class="navlink">Sobre Nós</a>
+            <a href="blog.html" class="navlink">Blog</a>
+        </nav>
+    </div>
+    <div class="menu-overlay"></div>
+    <div class="mobile-menu">
+        <button class="menu-close" aria-label="Fechar menu" type="button">✕</button>
+        <nav class="mobile-nav">
+            <a href="index.html" class="active">Inicio</a>
+            <div class="mobile-dropdown">
+                <button type="button" class="mobile-dropdown-toggle">
+                    <span>Soluções</span>
+                    <span class="mobile-dropdown-arrow"></span></button>
+                <div class="mobile-dropdown-menu">
+                    <a href="automacao.html">Automação</a>
+                    <a href="iluminacao.html">Iluminação Inteligente</a>
+                    <a href="cameras.html">Smart Câmeras</a>
+                    <a href="fechaduras.html">Fechaduras Digitais</a>
+                    <a href="som.html">Sistema de Som</a>
+                    <a href="flat-tv.html">Flat TV</a>
+                    <a href="gas-fumaca.html">Detecção de Gás e Fumaça</a>
+                    <a href="climatizacao.html">Climatização Inteligente</a>
+                    <a href="solucoes.html" class="mobile-ver-todas">Ver todas as soluções</a>
+                </div>
+            </div>
+            <a href="carregador.html">Carregadores</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </div>
+</header>
+<section class="hero hero-index" id="inicio">
+    <div class="containerhero efeitohero">
+        <img src="img/saladeestar.png" alt="Sala de estar inteligente" class="heroimg efeitoimg">
+        <h1 class="herotitulo efeito-titulo">
+            Sua casa mais<br>
+            <span class="herotituloaccent">inteligente</span>
+        </h1>
+        <p class="herodescricao efeito-descricao">
+            Transforme sua casa em um espaço inteligente que trabalha por você. Com a automação residencial, você elimina tarefas do dia a dia e ganha mais tempo para aproveitar o que realmente importa: momentos com a família, descanso e qualidade de vida.
         </p>
-        <div class="cardsprodutos">
-            <div class="card">
-                <div class="icon">
-                    <img src="img/smart-camera.png" alt="Smart câmera" aria-hidden="true">
-                </div>
-                <h3 class="camera">Smart Câmeras</h3>
+        <a href="#produtos" class="saibamais efeito-saibamais">Saiba mais</a>
+    </div>
+</section>
+<section class="orcamento" id="orcamento">
+    <div class="valuetext">
+        <h2 class="tituloorcamento">Seu acesso ao futuro começa agora</h2>
+        <p class="descricaoorcamento">
+            A automação de ambientes é perfeita para quem busca mais tecnologia, conforto e eficiência no dia a dia. Integre iluminação, segurança, climatização e áudio/vídeo em um único sistema e tenha controle completo por voz ou aplicativo. Mais praticidade, economia de energia e valorização para o seu imóvel.
+        </p>
+        <a href="https://wa.link/hc1ej9" target="_blank" class="btn-orcamento">Faça seu orçamento</a>
+    </div>
+</section>
+<section class="sugestaoprodutos" id="produtos">
+    <h2 class="tituloprodutos">Controlar sua casa de onde estiver. Quando quiser.</h2>
+    <p class="descricaoprodutos">
+        Com soluções de casa inteligente, você monitora ambientes, ajusta a iluminação, acompanha o consumo de energia e gerencia seus dispositivos com total praticidade. Tudo direto do seu smartphone ou com simples comandos de voz, deixando sua rotina muito mais rápida e intuitiva. Mais controle, mais conforto e a liberdade de ter sua casa funcionando do seu jeito, onde você estiver.
+    </p>
+    <div class="cardsprodutos">
+        <div class="card">
+            <div class="icon">
+                <img src="img/smart-camera.png" alt="Smart câmera" aria-hidden="true">
             </div>
-            <div class="card">
-                <div class="fechaduraimagem">
-                    <img src="img/fechadura.png" alt="Fechadura digital" aria-hidden="true">
-                </div>
-                <h3 class="fechaduraa">Fechaduras Digitais</h3>
+            <h3 class="camera">Smart Câmeras</h3>
+        </div>
+        <div class="card">
+            <div class="fechaduraimagem">
+                <img src="img/fechadura.png" alt="Fechadura digital" aria-hidden="true">
             </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="img/sistema-de-som.png" alt="Sistema de som" aria-hidden="true">
-                </div>
-                <h3 class="som">Sistema de Som</h3>
+            <h3 class="fechaduraa">Fechaduras Digitais</h3>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="img/sistema-de-som.png" alt="Sistema de som" aria-hidden="true">
             </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="img/domotica.png" alt="Rede domótica" aria-hidden="true">
-                </div>
-                <h3 class="domotica">Rede Domótica</h3>
+            <h3 class="som">Sistema de Som</h3>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="img/domotica.png" alt="Rede domótica" aria-hidden="true">
             </div>
-            <div class="card">
-                <div class="icon">
-                    <img src="img/iluminacao.png" alt="Iluminação inteligente" aria-hidden="true">
-                </div>
-                <h3 class="lampada">Iluminação Inteligente</h3>
+            <h3 class="domotica">Rede Domótica</h3>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img src="img/iluminacao.png" alt="Iluminação inteligente" aria-hidden="true">
+            </div>
+            <h3 class="lampada">Iluminação Inteligente</h3>
+        </div>
+    </div>
+    <p class="catalogoprodutos">Tudo isso e muito mais, do jeito que você imaginar. Do jeito que você quiser.</p>
+</section>
+<section class="espaco" id="espaco">
+    <div class="container">
+        <div class="cardespaco">
+            <div class="cardtexto">
+                <h2 class="titulotour">Conheça nosso espaço!</h2>
+                <p class="desc">
+                    Um olhar por dentro do nosso espaço. Cada detalhe reflete o que entregamos: tecnologia, sofisticação e soluções pensadas para tornar o dia a dia mais prático e inteligente. Neste vídeo, você acompanha alguns dos ambientes, aplicações e possibilidades da automação em ação — de forma simples, elegante e funcional.
+                </p>
+            </div>
+            <div class="cardmidia">
+                <video src="img/dream tour 4k.mp4" controls poster="img/espaco-thumb.jpg" preload="metadata"></video>
             </div>
         </div>
-        <p class="catalogoprodutos">Tudo isso e muito mais, do jeito que você imaginar. Do jeito que você quiser.</p>
-    </section>
-    <section class="espaco" id="espaco">
-        <div class="container">
-            <div class="cardespaco">
-                <div class="cardtexto">
-                    <h2 class="titulotour">Conheça nosso espaço!</h2>
-                    <p class="desc">Um olhar por dentro do nosso espaço. Cada detalhe reflete o que entregamos: tecnologia, sofisticação e soluções pensadas para tornar o dia a dia mais prático e inteligente. Neste vídeo, você acompanha alguns dos ambientes, aplicações e possibilidades da automação em ação — de forma simples, elegante e funcional.</p>
-                </div>
-                <div class="cardmidia">
-                    <video src="img/dream tour 4k.mp4" controls poster="img/espaco-thumb.jpg" preload="metadata">
-                    </video>
-                </div>
-            </div>
+    </div>
+</section>
+<section class="clientes" id="clientes">
+    <div class="container">
+        <h2 class="clientestitulo">Clientes que já transformaram seus espaços</h2>
+        <div class="gridclientes">
+            <div class="mario"><img src="img/clientes/mario.png" alt="Mario Free Shop"></div>
+            <div class="schumann"><img src="img/clientes/schumann.png" alt="Construtora Schumann"></div>
+            <div class="melhorenvio"><img src="img/clientes/MelhorEnvio_Branco.png" alt="Melhor Envio"></div>
+            <div class="idealiza"><img src="img/clientes/idealiza.png" alt="Idealiza Cidades"></div>
+            <div class="thehall"><img src="img/clientes/thehall.png" alt="Condomínio The Hall"></div>
+            <div class="porto5"><img src="img/clientes/porto5.png" alt="Porto5"></div>
+            <div class="leiseca"><img src="img/clientes/lei-seca.png" alt="Decorando a Lei Seca"></div>
+            <div class="anteparo"><img src="img/clientes/anteparo.png" alt="Anteparo"></div>
+            <div class="circulus"><img src="img/clientes/circulus.png" alt="Lancheria Circulu's"></div>
+            <div class="clinicadosono"><img src="img/clientes/clinica-do-sono.png" alt="Clínica do Sono"></div>
+            <div class="avp"><img src="img/clientes/avp.png" alt="AVP Participações"></div>
+            <div class="lang"><img src="img/clientes/lang.png" alt="LANG Imóveis"></div>
+            <div class="michelon"><img src="img/clientes/michelon.png" alt="Michelon Construtora"></div>
+            <div class="mud"><img src="img/clientes/mud.png" alt="MUD Arquitetura"></div>
+            <div class="zabaleta"><img src="img/clientes/zabaleta.png" alt="Zabaleta Construtora"></div>
+            <div class="aureum"><img src="img/clientes/aureum.png" alt="Clinica Aureum"></div>
+            <div class="marbo"><img src="img/clientes/marbo.png" alt="Marbo Engenharia"></div>
+            <div class="vip"><img src="img/clientes/academia-vip.png" alt="Academia Vip"></div>
+            <div class="atlas"><img src="img/clientes/atlas.png" alt="Atlas Technologies"></div>
         </div>
-    </section>
-    <section class="clientes" id="clientes">
-        <div class="container">
-            <h2 class="clientestitulo">Clientes que já transformaram seus espaços</h2>
-            <div class="gridclientes">
-                <div class="mario"><img src="img/clientes/mario.png" alt="Mario Free Shop"></div>
-                <div class="schumann"><img src="img/clientes/schumann.png" alt="Construtora Schumann"></div>
-                <div class="melhorenvio"><img src="img/clientes/MelhorEnvio_Branco.png" alt="Melhor Envio"></div>
-                <div class="idealiza"><img src="img/clientes/idealiza.png" alt="Idealiza Cidades"></div>
-                <div class="thehall"><img src="img/clientes/thehall.png" alt="Condomínio The Hall"></div>
-                <div class="porto5"><img src="img/clientes/porto5.png" alt="Porto5"></div>
-                <div class="leiseca"><img src="img/clientes/lei-seca.png" alt="Decorando a Lei Seca"></div>
-                <div class="anteparo"><img src="img/clientes/anteparo.png" alt="Anteparo"></div>
-                <div class="circulus"><img src="img/clientes/circulus.png" alt="Lancheria Circulu's"></div>
-                <div class="clinicadosono"><img src="img/clientes/clinica-do-sono.png" alt="Clínica do Sono"></div>
-                <div class="avp"><img src="img/clientes/avp.png" alt="AVP Participações"></div>
-                <div class="lang"><img src="img/clientes/lang.png" alt="LANG Imóveis"></div>
-                <div class="michelon"><img src="img/clientes/michelon.png"alt="Michelon Construtora"></div>
-                <div class="mud"><img src="img/clientes/mud.png" alt="MUD Arquitetura"></div>
-                <div class="zabaleta"><img src="img/clientes/zabaleta.png" alt="Zabaleta Construtora"></div>
-                <div class="aureum"><img src="img/clientes/aureum.png" alt="Clinica Aureum"></div>
-                <div class="marbo"><img src="img/clientes/marbo.png" alt="Marbo Engenharia"></div>
-                <div class="vip"><img src="img/clientes/academia-vip.png" alt="Academia Vip"></div>
-                <div class="atlas"><img src="img/clientes/atlas.png" alt="Atlas Technologies"></div>
-            </div>
-            <p class="clientesdesc">Entre tantos outros. Seja um cliente Dream você também!</p>
-        </div>
-    </section>
+        <p class="clientesdesc">Entre tantos outros. Seja um cliente Dream você também!</p>
+    </div>
+</section>
 <footer class="footer">
     <div class="containerfooter">
         <div class="logofooter">
@@ -163,7 +191,7 @@
                 <img src="img/whatsapp.svg" alt="WhatsApp">
             </a>
             <a href="https://www.linkedin.com/company/dream-tech-brazil/" target="_blank" aria-label="Linkedin">
-                <img src="img/linkedin.svg" alt="WhatsApp">
+                <img src="img/linkedin.svg" alt="Linkedin">
             </a>
         </div>
         <nav class="footernav">

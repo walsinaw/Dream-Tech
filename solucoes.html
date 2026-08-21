@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dream Tech Brasil | Soluções</title>
-<link rel="icon" type="image/x-icon" href="img/logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="index.css" />
-<link rel="stylesheet" href="solucoes.css" />
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="reveal.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Tech Brasil | Soluções</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="solucoes.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="reveal.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -26,20 +26,53 @@
         </div>
         <nav class="headernav">
             <a href="index.html" class="navlink">Inicio</a>
-            <a href="solucoes.html" class="navlink" style="color: var(--gold);">Soluções</a>
-            <a href="sobre.html" class="navlink">Sobre Nós</a>
+                <div class="nav-dropdown">
+                <a href="solucoes.html" class="navlink nav-dropdown-toggle">
+                    <span style="color: var(--gold);">Soluções</span>
+                    <span class="dropdown-arrow"></span></a>
+                <div class="nav-dropdown-menu">
+                    <a href="automacao.html">Automação</a>
+                    <a href="iluminacao.html">Iluminação Inteligente</a>
+                    <a href="cameras.html">Smart Câmeras</a>
+                    <a href="fechaduras.html">Fechaduras Digitais</a>
+                    <a href="som.html">Sistema de Som</a>
+                    <a href="flat-tv.html">Flat TV</a>
+                    <a href="gas-fumaca.html">Detecção de Gás e Fumaça</a>
+                    <a href="climatizacao.html">Climatização Inteligente</a>
+                    <a href="solucoes.html" class="vertudo">Ver todas</a>
+                </div>
+            </div>
             <a href="carregador.html" class="navlink">Carregadores</a>
+            <a href="sobre.html" class="navlink">Sobre Nós</a>
+            <a href="blog.html" class="navlink">Blog</a>
         </nav>
     </div>
         <div class="mobile-menu">
-            <button class="menu-close" aria-label="Fechar menu">✕</button>
-            <nav class="mobile-nav">
-                <a href="index.html" class="active">Inicio</a>
-                <a href="solucoes.html">Soluções</a>
-                <a href="sobre.html">Sobre Nós</a>
-                <a href="carregador.html">Carregadores</a>
-            </nav>
-        </div>
+        <button class="menu-close" aria-label="Fechar menu" type="button">✕</button>
+
+        <nav class="mobile-nav">
+            <a href="index.html">Inicio</a>
+            <div class="mobile-dropdown">
+                <button type="button" class="mobile-dropdown-toggle">
+                    <span style="color: var(--gold);">Soluções</span>
+                    <span class="mobile-dropdown-arrow"></span></button>
+                <div class="mobile-dropdown-menu">
+                    <a href="automacao.html">Automação Residencial e Comercial</a>
+                    <a href="iluminacao.html">Iluminação Inteligente</a>
+                    <a href="cameras.html">Câmeras Inteligentes</a>
+                    <a href="fechaduras.html">Fechaduras Digitais</a>
+                    <a href="som.html">Sistema de Som</a>
+                    <a href="flat-tv.html">Flat TV</a>
+                    <a href="gas-fumaca.html">Detecção de Gás e Fumaça</a>
+                    <a href="climatizacao.html">Climatização Inteligente</a>
+                    <a href="solucoes.html" class="mobile-ver-todas">Ver todas as soluções</a>
+                </div>
+            </div>
+            <a href="carregador.html">Carregadores</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </div>
     <div class="menu-overlay"></div>
 </header>
 <section class="hero hero-servicos" id="inicio">

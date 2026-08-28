@@ -18,7 +18,7 @@ const modalData = document.getElementById('blogModalData');
 const modalConteudo = document.getElementById('blogModalConteudo');
 
 function init() {
-    fetch('data/posts.json')
+    fetch('../data/posts.json')
         .then(res => res.json())
         .then(posts => {
             STATE.posts = posts.sort((a, b) => new Date(b.data) - new Date(a.data));

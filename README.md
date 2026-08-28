@@ -1,46 +1,64 @@
+````markdown
 # 🌙 Dream Tech Brasil
 
 Bem-vindo ao repositório oficial do site da Dream Tech ✨
 
-A DreamTech nasceu com a proposta de unir tecnologia, inovação e design moderno para criar soluções digitais inteligentes e acessíveis. Este projeto representa o desenvolvimento do site institucional da empresa, focado em apresentar serviços, fortalecer a presença online e transmitir a identidade da marca de forma profissional.
+A Dream Tech nasceu com a proposta de unir tecnologia, inovação e design moderno para criar soluções inteligentes e acessíveis. Este projeto representa o desenvolvimento do site institucional da empresa, com foco em apresentar suas soluções, fortalecer a presença online e transmitir a identidade da marca de forma profissional.
 
 ---
 
-## 🚀 Tecnologias Utilizadas (até o momento)
+## 🚀 Tecnologias Utilizadas
 
-🖥️ HTML5
-🎨 CSS3
-⚡ JavaScript
-🌐 Git & GitHub
+🖥️ HTML5  
+🎨 CSS3  
+⚡ JavaScript  
+📄 JSON  
+🌐 Git & GitHub  
+▲ Vercel
 
 ---
 
 ## 📂 Estrutura do Projeto
 
 ```bash
-📦 dreamtech-site
- ┃ ┣ 📂 img
+📦 Dream-Tech
+ ┣ 📂 .vscode
+ ┣ 📂 css
+ ┃ ┣ 📜 index.css
+ ┃ ┗ 📜 ...
+ ┣ 📂 data
+ ┃ ┗ 📜 posts.json
+ ┣ 📂 html
+ ┃ ┣ 📜 sobre.html
+ ┃ ┣ 📜 solucoes.html
+ ┃ ┣ 📜 blog.html
+ ┃ ┗ 📜 ...
+ ┣ 📂 img
+ ┃ ┣ 📂 blog
+ ┃ ┣ 📂 alexa
+ ┃ ┣ 📂 som
+ ┃ ┗ 📂 ...
+ ┣ 📂 js
+ ┃ ┣ 📜 menu.js
+ ┃ ┣ 📜 reveal.js
+ ┃ ┣ 📜 blog.js
+ ┃ ┗ 📜 ...
  ┣ 📜 index.html
- ┣ 📜 sobre.html
- ┣ 📜 solucoes.html
- ┣ 📜 carregador.html
- ┣ 📜 index.css
- ┣ 📜 sobre.css
- ┣ 📜 solucoes.css
- ┣ 📜 carregador.css
- ┣ 📜 revelal.js
- ┗ 📜 menu.js
-```
+ ┣ 📜 README.md
+ ┗ 📜 vercel.json
+````
 
 ---
 
 ## 💡 Objetivos do Projeto
 
-✨ Criar uma identidade visual moderna
-✨ Desenvolver um site responsivo
-✨ Melhorar a presença digital da empresa
+✨ Criar uma identidade visual moderna e tecnológica
+✨ Desenvolver um site responsivo e intuitivo
+✨ Fortalecer a presença digital da Dream Tech
+✨ Apresentar as soluções e serviços da empresa
 ✨ Facilitar o contato com clientes
-✨ Apresentar serviços de forma profissional
+✨ Proporcionar uma experiência de navegação moderna
+✨ Criar uma área de blog para conteúdos informativos sobre tecnologia e automação
 
 ---
 
@@ -48,19 +66,40 @@ A DreamTech nasceu com a proposta de unir tecnologia, inovação e design modern
 
 ✅ Layout responsivo
 ✅ Navegação intuitiva
-✅ Sessão de serviços
+✅ Menu de navegação com soluções
+✅ Apresentação das soluções da Dream Tech
 ✅ Página sobre a empresa
 ✅ Área de contato
+✅ Blog com conteúdos informativos
+✅ Filtros por categoria no blog
+✅ Busca de conteúdos
+✅ Visualização dos artigos em modal
+✅ Integração com imagens e conteúdos através de JSON
 ✅ Design moderno e minimalista
+
+---
+
+## 📝 Blog
+
+O site conta com uma área de blog desenvolvida para apresentar conteúdos relacionados a:
+
+* Automação residencial e comercial
+* Iluminação inteligente
+* Segurança
+* Climatização
+* Áudio
+* Tecnologia e inovação
+
+Os conteúdos do blog são organizados no arquivo `data/posts.json`, permitindo adicionar e atualizar publicações sem precisar alterar diretamente a estrutura do HTML.
 
 ---
 
 ## 🌎 Acesse o site
 
-🔗 www.dreamtechbrasil.com.br
+🔗 [https://www.dreamtechbrasil.com.br](https://www.dreamtechbrasil.com.br)
 
 ---
 
 ## 👩🏻‍💻 Desenvolvido por
 
-Feito com dedicação por Julia Alsina
+Feito com dedicação por **Julia Alsina**

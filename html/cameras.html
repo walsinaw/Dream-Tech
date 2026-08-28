@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="icon" type="image/x-icon" href="img/logo.png">
-    <title>Dream Tech Brasil | Blog</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <title>Dream Tech Brasil | Smart Câmeras</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="blog.css"/>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/solucoes.css"/>
+    <link rel="stylesheet" href="../css/automacao.css"/>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="reveal.js" defer></script>
+    <script src="../js/reveal.js" defer></script>
 </head>
 <body>
     <header class="header">
     <div class="container">
-        <a href="/" class="headerlogo"><img src="img/logoheader (2).png" alt="Dream Tech"></a>
+        <a href="/" class="headerlogo"><img src="../img/logoheader (2).png" alt="Dream Tech"></a>
         <div class="hamburger" aria-label="Abrir menu" role="button" tabindex="0">
             <span></span>
             <span></span>
             <span></span>
         </div>
         <nav class="headernav">
-            <a href="index.html" class="navlink">Inicio</a>
+            <a href="../index.html" class="navlink">Inicio</a>
             <div class="nav-dropdown">
                 <a href="solucoes.html" class="navlink nav-dropdown-toggle">
                     <span>Soluções</span>
@@ -31,7 +32,7 @@
                 <div class="nav-dropdown-menu">
                     <a href="automacao.html">Automação</a>
                     <a href="iluminacao.html">Iluminação Inteligente</a>
-                    <a href="cameras.html">Smart Câmeras</a>
+                    <a href="cameras.html" style="color: var(--gold);">Smart Câmeras</a>
                     <a href="fechaduras.html">Fechaduras Digitais</a>
                     <a href="som.html">Sistema de Som</a>
                     <a href="flat-tv.html">Flap TV</a>
@@ -42,22 +43,22 @@
             </div>
             <a href="carregador.html" class="navlink">Carregadores</a>
             <a href="sobre.html" class="navlink">Sobre Nós</a>
-            <a href="blog.html" class="navlink"  style="color: var(--gold);">Blog</a>
+            <a href="blog.html" class="navlink">Blog</a>
         </nav>
     </div>
     <div class="menu-overlay"></div>
     <div class="mobile-menu">
         <button class="menu-close" aria-label="Fechar menu" type="button">✕</button>
         <nav class="mobile-nav">
-            <a href="index.html" class="active">Inicio</a>
+            <a href="../index.html" class="active">Inicio</a>
             <div class="mobile-dropdown">
                 <button type="button" class="mobile-dropdown-toggle">
                     <span>Soluções</span>
                     <span class="mobile-dropdown-arrow"></span></button>
                 <div class="mobile-dropdown-menu">
-                    <a href="automacao.html">Automação Residencial e Comercial</a>
+                    <a href="automacao.html">Automação</a>
                     <a href="iluminacao.html">Iluminação Inteligente</a>
-                    <a href="cameras.html">Câmeras Inteligentes</a>
+                    <a href="cameras.html" style="color: var(--gold);">Smart Câmeras</a>
                     <a href="fechaduras.html">Fechaduras Digitais</a>
                     <a href="som.html">Sistema de Som</a>
                     <a href="flat-tv.html">Flap TV</a>
@@ -68,67 +69,52 @@
             </div>
             <a href="carregador.html">Carregadores</a>
             <a href="sobre.html">Sobre Nós</a>
-            <a href="blog.html" style="color: var(--gold);">Blog</a>
+            <a href="blog.html">Blog</a>
         </nav>
     </div>
 </header>
 <section class="hero hero-index" id="inicio">
     <div class="containerhero efeitohero">
-        <img src="img/blog.jfif" alt="Sala de estar inteligente" class="heroimg efeitoimg">
+        <img src="../img/blog.jfif" alt="Sala de estar inteligente" class="heroimg efeitoimg">
         <h1 class="herotitulo efeito-titulo">
-            Casa inteligente<br>
-            <span class="herotituloaccent" style="color: var(--gold);">para iniciantes</span>
+            Smart<br>
+            <span class="herotituloaccent" style="color: var(--gold);">Câmeras</span>
         </h1>
         <p class="herodescricao efeito-descricao">
-            Tudo o que você precisa saber para começar a transformar sua casa em um lar inteligente. Descubra as soluções mais recentes, dicas de automação e como a tecnologia pode melhorar sua vida diária.
+            Descubra como as câmeras inteligentes podem melhorar a segurança e a conveniência da sua casa. Explore os recursos avançados, integração com outros dispositivos e dicas para escolher a câmera ideal para suas necessidades.
         </p>
     </div>
 </section>
-<section class="blog-content">
-    <div class="container">
-        <div class="blog-toolbar">
-            <input type="text" id="blogSearch" class="blog-search-input" placeholder="Pesquisar artigos...">
-            <div class="blog-filtros" id="blogFiltros"></div>
-        </div>
-        <div class="blog-grid" id="blogGrid"></div>
-        <p class="blog-no-results" id="blogNoResults" style="display: none;">Nenhum artigo encontrado para essa busca.</p>
+<section class="orcamento" id="orcamento">
+    <div class="valuetext">
+        <h2 class="tituloorcamento">Página em construção</h2>
+        <p class="descricaoorcamento">
+            Por enquanto, se você deseja saber mais sobre nossas soluções e serviços, entre em contato conosco para um orçamento personalizado. Estamos ansiosos para ajudá-lo a transformar sua casa em um espaço inteligente e moderno.
+        </p>
+        <a href="https://wa.link/hc1ej9" target="_blank" class="btn-orcamento">Entre em contato!</a>
     </div>
-</section>
-<div class="blog-modal-overlay" id="blogModalOverlay">
-    <div class="blog-modal" id="blogModal">
-        <button class="blog-modal-close" id="blogModalClose" aria-label="Fechar" type="button">✕</button>
-        <div class="blog-modal-img-wrap">
-            <img src="" alt="" class="blog-modal-img" id="blogModalImg">
-        </div>
-        <div class="blog-modal-body">
-            <span class="blog-modal-categoria" id="blogModalCategoria"></span>
-            <h2 class="blog-modal-titulo" id="blogModalTitulo"></h2>
-            <span class="blog-modal-data" id="blogModalData"></span>
-            <div class="blog-modal-conteudo" id="blogModalConteudo"></div>
-        </div>
-    </div>
-</div>
 <footer class="footer">
     <div class="containerfooter">
         <div class="logofooter">
-            <img src="img/logoheader.png" alt="Dream Tech">
+            <img src="../img/logoheader.png" alt="Dream Tech">
         </div>
         <div class="footer-social">
             <a href="https://www.instagram.com/dreamtechbrazil/" target="_blank" aria-label="Instagram">
-                <img src="img/instagram.svg" alt="Instagram">
+                <img src="../img/instagram.svg" alt="Instagram">
             </a>
             <a href="https://www.facebook.com/DreamTechBrazil" target="_blank" aria-label="Facebook">
-                <img src="img/facebook.svg" alt="Facebook">
+                <img src="../img/facebook.svg" alt="Facebook">
             </a>
             <a href="https://wa.me/5553981640481" target="_blank" aria-label="WhatsApp">
-                <img src="img/whatsapp.svg" alt="WhatsApp">
+                <img src="../img/whatsapp.svg" alt="WhatsApp">
             </a>
             <a href="https://www.linkedin.com/company/dream-tech-brazil/" target="_blank" aria-label="Linkedin">
-                <img src="img/linkedin.svg" alt="Linkedin">
+                <img src="../img/linkedin.svg" alt="Linkedin">
             </a>
         </div>
+
         <nav class="footernav">
-            <a href="index.html" class="footerlink">Inicio</a>
+            <a href="../index.html" class="footerlink">Inicio</a>
             <a href="solucoes.html" class="footerlink">Soluções</a>
             <a href="sobre.html" class="footerlink">Sobre nós</a>
             <a href="carregador.html" class="footerlink">Carregadores</a>
@@ -137,7 +123,6 @@
         <p class="direitos">2026 © Todos os direitos reservados.</p>
     </div>
 </footer>
-<script src="menu.js"></script>
-<script src="blog.js" defer></script>
+<script src="../js/menu.js"></script>
 </body>
 </html>

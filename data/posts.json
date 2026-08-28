@@ -4,7 +4,7 @@
         "titulo": "Ainda faz sentido usar chaves?",
         "categoria": "Segurança",
         "data": "2026-08-28",
-        "imagem": "img/blog/chaves1.webp",
+        "imagem": "../img/blog/chaves1.webp",
         "resumo": "Novas formas de acesso estão mudando a relação entre praticidade, segurança e a maneira como entramos em casa.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Durante décadas, entrar em casa significou procurar uma chave no bolso. Hoje, diferentes tecnologias permitem repensar essa experiência, trazendo <strong>mais praticidade sem abrir mão da segurança</strong>." },
@@ -16,7 +16,7 @@
                 "Permissões de acesso para diferentes pessoas",
                 "Mais praticidade no dia a dia"
             ] },
-            { "tipo": "imagem", "src": "img/blog/fechadura.jfif", "legenda": "Tecnologia aplicada ao controle de acesso residencial" },
+            { "tipo": "imagem", "src": "../img/blog/fechadura.jfif", "legenda": "Tecnologia aplicada ao controle de acesso residencial" },
             { "tipo": "subtitulo", "texto": "É sobre tecnologia ou tranquilidade?" },
             { "tipo": "paragrafo", "texto": "No fim, a tecnologia é apenas o meio. O objetivo é tornar uma tarefa cotidiana mais simples, segura e adequada à rotina de cada pessoa." }
         ]
@@ -26,7 +26,7 @@
         "titulo": "Sua iluminação poderia fazer mais",
         "categoria": "Iluminação",
         "data": "2026-08-24",
-        "imagem": "img/blog/iluminacao1.webp",
+        "imagem": "../img/blog/iluminacao1.webp",
         "resumo": "Quando luz, ambiente e rotina começam a trabalhar juntos, algumas tarefas simplesmente deixam de existir.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Acender e apagar uma luz parece uma tarefa pequena. Mas quando diferentes ambientes passam a responder à sua rotina, a iluminação deixa de ser apenas uma questão de interruptores." },
@@ -47,7 +47,7 @@
         "titulo": "Quanto da sua rotina poderia ser automática?",
         "categoria": "Automação",
         "data": "2026-08-21",
-        "imagem": "img/blog/automacao1.avif",
+        "imagem": "../img/blog/automacao1.avif",
         "resumo": "Existem pequenas tarefas que fazemos todos os dias sem perceber que poderiam acontecer sozinhas.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Todos os dias repetimos dezenas de pequenas ações: acender luzes, ajustar a temperatura, fechar portas, ligar equipamentos. Separadamente, parecem insignificantes. Juntas, fazem parte de uma rotina que pode ser repensada." },
@@ -68,7 +68,7 @@
         "titulo": "E se bastasse falar?",
         "categoria": "Automação",
         "data": "2026-08-17",
-        "imagem": "img/alexa/alexa.jpeg",
+        "imagem": "../img/alexa/alexa.jpeg",
         "resumo": "A interação por voz já ultrapassou os celulares e pode fazer parte de diferentes momentos da sua casa.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Comandos de voz já fazem parte da rotina de muitas pessoas. Mas quando um assistente virtual está conectado a diferentes dispositivos, a experiência pode ir muito além de responder perguntas." },
@@ -80,7 +80,7 @@
                 "Integração com dispositivos inteligentes",
                 "Controle sem precisar procurar o celular"
             ] },
-            { "tipo": "imagem", "src": "img/blog/alexa.jfif", "legenda": "Assistente de voz integrado à automação do ambiente" },
+            { "tipo": "imagem", "src": "../img/blog/alexa.jfif", "legenda": "Assistente de voz integrado à automação do ambiente" },
             { "tipo": "subtitulo", "texto": "O interessante está na integração" },
             { "tipo": "paragrafo", "texto": "O assistente de voz por si só já é útil. Mas é quando ele passa a conversar com outros sistemas que a experiência começa a ficar realmente interessante." }
         ]
@@ -90,7 +90,7 @@
         "titulo": "Você sabe o que acontece quando não está em casa?",
         "categoria": "Segurança",
         "data": "2026-08-14",
-        "imagem": "img/blog/cameraseguranca.jpg",
+        "imagem": "../img/blog/cameraseguranca.jpg",
         "resumo": "Monitorar um ambiente não precisa significar apenas olhar para uma câmera. A tecnologia pode ajudar você a entender o que está acontecendo.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Saber que existe uma câmera instalada é diferente de realmente ter informações sobre o que acontece em um ambiente. Com tecnologias mais recentes, o monitoramento pode se tornar muito mais dinâmico." },
@@ -111,7 +111,7 @@
         "titulo": "Sua casa sabe quando está quente demais?",
         "categoria": "Climatização",
         "data": "2026-08-10",
-        "imagem": "img/blog/climatizacaointeligente.png",
+        "imagem": "../img/blog/climatizacaointeligente.png",
         "resumo": "Temperatura e conforto podem ser muito mais inteligentes do que simplesmente ligar ou desligar o ar.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Quando sentimos calor, normalmente pensamos em uma única solução: ligar o ar-condicionado. Mas a tecnologia permite criar uma relação muito mais inteligente entre o ambiente e a temperatura." },
@@ -132,7 +132,7 @@
         "titulo": "Por que cada ambiente precisa ouvir a mesma coisa?",
         "categoria": "Áudio",
         "data": "2026-08-07",
-        "imagem": "img/som/som.png",
+        "imagem": "../img/som/som.png",
         "resumo": "Tecnologia de áudio pode transformar a experiência de diferentes espaços de uma casa ou negócio.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Música na sala, televisão na cozinha e silêncio no quarto. Cada ambiente tem uma necessidade diferente, mas isso não significa que o sistema de áudio precise ser limitado a uma única fonte ou espaço." },
@@ -153,7 +153,7 @@
         "titulo": "Alguns sinais não deveriam esperar você perceber",
         "categoria": "Segurança",
         "data": "2026-08-03",
-        "imagem": "img/blog/fumaca.webp",
+        "imagem": "../img/blog/fumaca.webp",
         "resumo": "Existem tecnologias capazes de identificar situações antes que elas se tornem um problema maior.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Nem todo problema começa de forma evidente. Vazamentos, fumaça e alterações na qualidade do ambiente podem passar despercebidos até que suas consequências sejam maiores." },

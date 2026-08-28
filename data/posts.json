@@ -16,7 +16,7 @@
                 "Permissões de acesso para diferentes pessoas",
                 "Mais praticidade no dia a dia"
             ] },
-            { "tipo": "imagem", "src": "img/blog/fechadura2.jpg", "legenda": "Tecnologia aplicada ao controle de acesso residencial" },
+            { "tipo": "imagem", "src": "img/blog/fechadura.jfif", "legenda": "Tecnologia aplicada ao controle de acesso residencial" },
             { "tipo": "subtitulo", "texto": "É sobre tecnologia ou tranquilidade?" },
             { "tipo": "paragrafo", "texto": "No fim, a tecnologia é apenas o meio. O objetivo é tornar uma tarefa cotidiana mais simples, segura e adequada à rotina de cada pessoa." }
         ]
@@ -80,7 +80,7 @@
                 "Integração com dispositivos inteligentes",
                 "Controle sem precisar procurar o celular"
             ] },
-            { "tipo": "imagem", "src": "img/blog/alexa2.jpg", "legenda": "Assistente de voz integrado à automação do ambiente" },
+            { "tipo": "imagem", "src": "img/blog/alexa.jfif", "legenda": "Assistente de voz integrado à automação do ambiente" },
             { "tipo": "subtitulo", "texto": "O interessante está na integração" },
             { "tipo": "paragrafo", "texto": "O assistente de voz por si só já é útil. Mas é quando ele passa a conversar com outros sistemas que a experiência começa a ficar realmente interessante." }
         ]

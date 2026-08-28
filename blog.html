@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="solucoes.css"/>
     <link rel="stylesheet" href="blog.css"/>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="reveal.js" defer></script>
@@ -85,14 +84,30 @@
         </p>
     </div>
 </section>
-<section class="orcamento" id="orcamento">
-    <div class="valuetext">
-        <h2 class="tituloorcamento">Página em construção</h2>
-        <p class="descricaoorcamento">
-            Por enquanto, se você deseja saber mais sobre nossas soluções e serviços, entre em contato conosco para um orçamento personalizado. Estamos ansiosos para ajudá-lo a transformar sua casa em um espaço inteligente e moderno.
-        </p>
-        <a href="https://wa.link/hc1ej9" target="_blank" class="btn-orcamento">Entre em contato!</a>
+<section class="blog-content">
+    <div class="container">
+        <div class="blog-toolbar">
+            <input type="text" id="blogSearch" class="blog-search-input" placeholder="Pesquisar artigos...">
+            <div class="blog-filtros" id="blogFiltros"></div>
+        </div>
+        <div class="blog-grid" id="blogGrid"></div>
+        <p class="blog-no-results" id="blogNoResults" style="display: none;">Nenhum artigo encontrado para essa busca.</p>
     </div>
+</section>
+<div class="blog-modal-overlay" id="blogModalOverlay">
+    <div class="blog-modal" id="blogModal">
+        <button class="blog-modal-close" id="blogModalClose" aria-label="Fechar" type="button">✕</button>
+        <div class="blog-modal-img-wrap">
+            <img src="" alt="" class="blog-modal-img" id="blogModalImg">
+        </div>
+        <div class="blog-modal-body">
+            <span class="blog-modal-categoria" id="blogModalCategoria"></span>
+            <h2 class="blog-modal-titulo" id="blogModalTitulo"></h2>
+            <span class="blog-modal-data" id="blogModalData"></span>
+            <div class="blog-modal-conteudo" id="blogModalConteudo"></div>
+        </div>
+    </div>
+</div>
 <footer class="footer">
     <div class="containerfooter">
         <div class="logofooter">
@@ -112,7 +127,6 @@
                 <img src="img/linkedin.svg" alt="Linkedin">
             </a>
         </div>
-
         <nav class="footernav">
             <a href="index.html" class="footerlink">Inicio</a>
             <a href="solucoes.html" class="footerlink">Soluções</a>
@@ -124,5 +138,6 @@
     </div>
 </footer>
 <script src="menu.js"></script>
+<script src="blog.js" defer></script>
 </body>
 </html>

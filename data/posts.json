@@ -1,0 +1,172 @@
+[
+    {
+        "id": "post-001",
+        "titulo": "Ainda faz sentido usar chaves?",
+        "categoria": "Segurança",
+        "data": "2026-08-28",
+        "imagem": "img/blog/chaves1.webp",
+        "resumo": "Novas formas de acesso estão mudando a relação entre praticidade, segurança e a maneira como entramos em casa.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Durante décadas, entrar em casa significou procurar uma chave no bolso. Hoje, diferentes tecnologias permitem repensar essa experiência, trazendo <strong>mais praticidade sem abrir mão da segurança</strong>." },
+            { "tipo": "subtitulo", "texto": "Uma nova forma de entrar em casa" },
+            { "tipo": "paragrafo", "texto": "Fechaduras digitais podem utilizar diferentes formas de acesso, como senha, biometria, cartão ou aplicativo. Isso significa que a chave tradicional deixa de ser a única maneira de controlar quem entra e sai." },
+            { "tipo": "lista", "itens": [
+                "Acesso por biometria ou senha",
+                "Controle pelo smartphone",
+                "Permissões de acesso para diferentes pessoas",
+                "Mais praticidade no dia a dia"
+            ] },
+            { "tipo": "imagem", "src": "img/blog/fechadura2.jpg", "legenda": "Tecnologia aplicada ao controle de acesso residencial" },
+            { "tipo": "subtitulo", "texto": "É sobre tecnologia ou tranquilidade?" },
+            { "tipo": "paragrafo", "texto": "No fim, a tecnologia é apenas o meio. O objetivo é tornar uma tarefa cotidiana mais simples, segura e adequada à rotina de cada pessoa." }
+        ]
+    },
+    {
+        "id": "post-002",
+        "titulo": "Sua iluminação poderia fazer mais",
+        "categoria": "Iluminação",
+        "data": "2026-08-24",
+        "imagem": "img/blog/iluminacao1.webp",
+        "resumo": "Quando luz, ambiente e rotina começam a trabalhar juntos, algumas tarefas simplesmente deixam de existir.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Acender e apagar uma luz parece uma tarefa pequena. Mas quando diferentes ambientes passam a responder à sua rotina, a iluminação deixa de ser apenas uma questão de interruptores." },
+            { "tipo": "subtitulo", "texto": "A luz acompanha o momento" },
+            { "tipo": "paragrafo", "texto": "Uma iluminação mais inteligente pode criar diferentes atmosferas para trabalhar, assistir a um filme, receber amigos ou simplesmente relaxar. Tudo isso sem precisar ajustar cada lâmpada individualmente." },
+            { "tipo": "lista", "itens": [
+                "Cenas de iluminação para diferentes momentos",
+                "Ajustes de intensidade e temperatura",
+                "Acionamento automático em horários definidos",
+                "Integração com outros dispositivos do ambiente"
+            ] },
+            { "tipo": "subtitulo", "texto": "Pequenas mudanças, outra experiência" },
+            { "tipo": "paragrafo", "texto": "Talvez você nunca tenha pensado na iluminação como parte da experiência de um ambiente. Mas quando ela passa a acompanhar o que acontece ao redor, <strong>a diferença pode ser percebida justamente nos pequenos detalhes</strong>." }
+        ]
+    },
+    {
+        "id": "post-003",
+        "titulo": "Quanto da sua rotina poderia ser automática?",
+        "categoria": "Automação",
+        "data": "2026-08-21",
+        "imagem": "img/blog/automacao1.avif",
+        "resumo": "Existem pequenas tarefas que fazemos todos os dias sem perceber que poderiam acontecer sozinhas.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Todos os dias repetimos dezenas de pequenas ações: acender luzes, ajustar a temperatura, fechar portas, ligar equipamentos. Separadamente, parecem insignificantes. Juntas, fazem parte de uma rotina que pode ser repensada." },
+            { "tipo": "subtitulo", "texto": "Automatizar não significa complicar" },
+            { "tipo": "paragrafo", "texto": "Uma casa automatizada não precisa parecer futurista ou difícil de usar. Na verdade, uma boa automação deve fazer exatamente o contrário: <strong>simplificar a interação com o ambiente</strong>." },
+            { "tipo": "lista", "itens": [
+                "Luzes que respondem à presença",
+                "Ambientes preparados para diferentes horários",
+                "Equipamentos acionados de acordo com a rotina",
+                "Cenas que combinam diferentes dispositivos"
+            ] },
+            { "tipo": "subtitulo", "texto": "Por onde começar?" },
+            { "tipo": "paragrafo", "texto": "Não existe uma fórmula única. O ponto de partida mais interessante costuma estar justamente nas tarefas que você mais repete ou nas situações em que sente falta de praticidade." }
+        ]
+    },
+    {
+        "id": "post-004",
+        "titulo": "E se bastasse falar?",
+        "categoria": "Automação",
+        "data": "2026-08-17",
+        "imagem": "img/alexa/alexa.jpeg",
+        "resumo": "A interação por voz já ultrapassou os celulares e pode fazer parte de diferentes momentos da sua casa.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Comandos de voz já fazem parte da rotina de muitas pessoas. Mas quando um assistente virtual está conectado a diferentes dispositivos, a experiência pode ir muito além de responder perguntas." },
+            { "tipo": "subtitulo", "texto": "Uma conversa que aciona o ambiente" },
+            { "tipo": "paragrafo", "texto": "Imagine dizer que vai dormir e, a partir de um único comando, diferentes ações acontecerem ao mesmo tempo. Luzes, equipamentos e outros dispositivos podem responder de acordo com aquilo que foi programado." },
+            { "tipo": "lista", "itens": [
+                "Comandos de voz para diferentes ambientes",
+                "Criação de rotinas personalizadas",
+                "Integração com dispositivos inteligentes",
+                "Controle sem precisar procurar o celular"
+            ] },
+            { "tipo": "imagem", "src": "img/blog/alexa2.jpg", "legenda": "Assistente de voz integrado à automação do ambiente" },
+            { "tipo": "subtitulo", "texto": "O interessante está na integração" },
+            { "tipo": "paragrafo", "texto": "O assistente de voz por si só já é útil. Mas é quando ele passa a conversar com outros sistemas que a experiência começa a ficar realmente interessante." }
+        ]
+    },
+    {
+        "id": "post-005",
+        "titulo": "Você sabe o que acontece quando não está em casa?",
+        "categoria": "Segurança",
+        "data": "2026-08-14",
+        "imagem": "img/blog/cameraseguranca.jpg",
+        "resumo": "Monitorar um ambiente não precisa significar apenas olhar para uma câmera. A tecnologia pode ajudar você a entender o que está acontecendo.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Saber que existe uma câmera instalada é diferente de realmente ter informações sobre o que acontece em um ambiente. Com tecnologias mais recentes, o monitoramento pode se tornar muito mais dinâmico." },
+            { "tipo": "subtitulo", "texto": "Mais do que uma imagem" },
+            { "tipo": "paragrafo", "texto": "Câmeras inteligentes podem permitir acompanhamento remoto, notificações e diferentes formas de interação com o ambiente. Assim, você não precisa estar fisicamente presente para saber o que está acontecendo." },
+            { "tipo": "lista", "itens": [
+                "Visualização remota dos ambientes",
+                "Notificações de movimentação",
+                "Gravações para consulta posterior",
+                "Integração com outros sistemas de segurança"
+            ] },
+            { "tipo": "subtitulo", "texto": "Segurança também é informação" },
+            { "tipo": "paragrafo", "texto": "Ter informação no momento certo pode fazer diferença. A tecnologia permite transformar o monitoramento de algo passivo em uma experiência muito mais conectada à rotina." }
+        ]
+    },
+    {
+        "id": "post-006",
+        "titulo": "Sua casa sabe quando está quente demais?",
+        "categoria": "Climatização",
+        "data": "2026-08-10",
+        "imagem": "img/blog/climatizacaointeligente.png",
+        "resumo": "Temperatura e conforto podem ser muito mais inteligentes do que simplesmente ligar ou desligar o ar.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Quando sentimos calor, normalmente pensamos em uma única solução: ligar o ar-condicionado. Mas a tecnologia permite criar uma relação muito mais inteligente entre o ambiente e a temperatura." },
+            { "tipo": "subtitulo", "texto": "Conforto sem precisar pensar nele" },
+            { "tipo": "paragrafo", "texto": "Sistemas integrados podem considerar horários, temperatura e diferentes condições do ambiente para tornar a climatização mais adequada à rotina." },
+            { "tipo": "lista", "itens": [
+                "Controle automatizado da temperatura",
+                "Programação de horários",
+                "Integração com outros dispositivos",
+                "Mais conforto em diferentes momentos do dia"
+            ] },
+            { "tipo": "subtitulo", "texto": "Quando o ambiente começa a responder" },
+            { "tipo": "paragrafo", "texto": "A ideia não é simplesmente controlar um aparelho. É criar um ambiente que esteja mais próximo das condições que você espera encontrar quando chegar." }
+        ]
+    },
+    {
+        "id": "post-007",
+        "titulo": "Por que cada ambiente precisa ouvir a mesma coisa?",
+        "categoria": "Áudio",
+        "data": "2026-08-07",
+        "imagem": "img/som/som.png",
+        "resumo": "Tecnologia de áudio pode transformar a experiência de diferentes espaços de uma casa ou negócio.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Música na sala, televisão na cozinha e silêncio no quarto. Cada ambiente tem uma necessidade diferente, mas isso não significa que o sistema de áudio precise ser limitado a uma única fonte ou espaço." },
+            { "tipo": "subtitulo", "texto": "Som pensado para o ambiente" },
+            { "tipo": "paragrafo", "texto": "Soluções de áudio distribuído permitem criar experiências diferentes em cada espaço, com controle independente ou integração entre os ambientes." },
+            { "tipo": "lista", "itens": [
+                "Áudio distribuído em diferentes ambientes",
+                "Controle individual ou integrado",
+                "Integração com sistemas de automação",
+                "Experiência sonora mais discreta e organizada"
+            ] },
+            { "tipo": "subtitulo", "texto": "Não é só sobre ouvir música" },
+            { "tipo": "paragrafo", "texto": "Quando o áudio é planejado junto ao ambiente, ele deixa de ser apenas um equipamento visível e passa a fazer parte da experiência do espaço." }
+        ]
+    },
+    {
+        "id": "post-008",
+        "titulo": "Alguns sinais não deveriam esperar você perceber",
+        "categoria": "Segurança",
+        "data": "2026-08-03",
+        "imagem": "img/blog/fumaca.webp",
+        "resumo": "Existem tecnologias capazes de identificar situações antes que elas se tornem um problema maior.",
+        "conteudo": [
+            { "tipo": "paragrafo", "texto": "Nem todo problema começa de forma evidente. Vazamentos, fumaça e alterações na qualidade do ambiente podem passar despercebidos até que suas consequências sejam maiores." },
+            { "tipo": "subtitulo", "texto": "Quando a tecnologia percebe primeiro" },
+            { "tipo": "paragrafo", "texto": "Sensores podem acompanhar diferentes condições de um ambiente e identificar alterações que normalmente não seriam percebidas imediatamente por quem está no local." },
+            { "tipo": "lista", "itens": [
+                "Detecção de fumaça",
+                "Identificação de vazamentos",
+                "Detecção de gases",
+                "Alertas em situações fora do padrão"
+            ] },
+            { "tipo": "subtitulo", "texto": "Prevenção começa antes do problema" },
+            { "tipo": "paragrafo", "texto": "Tecnologia de segurança não precisa atuar somente depois que algo acontece. Em muitos casos, <strong>identificar um sinal cedo pode ser justamente a parte mais importante</strong>." }
+        ]
+    }
+]

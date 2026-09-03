@@ -168,5 +168,28 @@
             { "tipo": "subtitulo", "texto": "Prevenção começa antes do problema" },
             { "tipo": "paragrafo", "texto": "Tecnologia de segurança não precisa atuar somente depois que algo acontece. Em muitos casos, <strong>identificar um sinal cedo pode ser justamente a parte mais importante</strong>." }
         ]
-    }
+    },
+    {
+        "id": "post-009",
+        "titulo": "E se um vazamento fosse percebido antes de você?",
+        "categoria": "Segurança",
+        "data": "2026-08-31",
+        "imagem": "../img/blog/agua.jfif",
+        "resumo": "Pequenos vazamentos podem passar despercebidos por muito tempo. A tecnologia pode ajudar a identificar sinais antes que eles se transformem em um problema maior.",
+        "conteudo": [
+        { "tipo": "paragrafo", "texto": "Nem todo vazamento começa com uma grande poça de água. Muitas vezes, o problema começa de forma silenciosa e pode levar dias até ser percebido. É justamente nesse intervalo que a tecnologia pode fazer diferença." },
+        { "tipo": "subtitulo", "texto": "Quando ninguém está olhando" },
+        { "tipo": "paragrafo", "texto": "Sensores de detecção de água podem identificar a presença de umidade em pontos estratégicos e enviar alertas quando algo foge do esperado. Assim, uma situação que normalmente só seria percebida depois pode chamar atenção muito antes." },
+        { "tipo": "lista", "itens": [
+        "Monitoramento de pontos estratégicos",
+        "Alertas quando há detecção de água",
+        "Acompanhamento mesmo quando você está fora",
+        "Integração com outros sistemas da residência"
+        ] },
+        { "tipo": "imagem", "src": "img/blog/agua2.jpg", "legenda": "Sensor de detecção de água instalado em um ambiente residencial" },
+        { "tipo": "subtitulo", "texto": "Pequenos sinais podem evitar grandes dores de cabeça" },
+        { "tipo": "paragrafo", "texto": "A ideia não é esperar que um problema apareça para então agir. É usar a tecnologia para acompanhar aquilo que normalmente passa despercebido e ter <strong>mais informação no momento em que ela realmente importa</strong>." }
+        ]
+        }
 ]
+

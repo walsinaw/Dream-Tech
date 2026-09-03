@@ -47,7 +47,7 @@
         "titulo": "Quanto da sua rotina poderia ser automática?",
         "categoria": "Automação",
         "data": "2026-08-21",
-        "imagem": "../img/blog/automacao1.avif",
+        "imagem": "../img/blog/automacao.jpeg",
         "resumo": "Existem pequenas tarefas que fazemos todos os dias sem perceber que poderiam acontecer sozinhas.",
         "conteudo": [
             { "tipo": "paragrafo", "texto": "Todos os dias repetimos dezenas de pequenas ações: acender luzes, ajustar a temperatura, fechar portas, ligar equipamentos. Separadamente, parecem insignificantes. Juntas, fazem parte de uma rotina que pode ser repensada." },

@@ -190,6 +190,52 @@
         { "tipo": "subtitulo", "texto": "Pequenos sinais podem evitar grandes dores de cabeça" },
         { "tipo": "paragrafo", "texto": "A ideia não é esperar que um problema apareça para então agir. É usar a tecnologia para acompanhar aquilo que normalmente passa despercebido e ter <strong>mais informação no momento em que ela realmente importa</strong>." }
         ]
+        },
+        {
+        "id": "post-010",
+        "titulo": "Você sabe quanta energia sua casa desperdiça?",
+        "categoria": "Automação",
+        "data": "2026-09-04",
+        "imagem": "img/blog/energia.webp",
+        "resumo": "Nem sempre o desperdício de energia está onde a gente imagina. Alguns hábitos e equipamentos podem continuar consumindo sem que você perceba — e a tecnologia pode ajudar a ter mais controle sobre isso.",
+        "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Nem todo desperdício de energia é fácil de perceber. Equipamentos ligados sem necessidade, iluminação acesa em ambientes vazios e sistemas funcionando além do necessário podem fazer parte da rotina sem chamar atenção."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Quando a casa continua funcionando sem você"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Com a automação, diferentes sistemas da residência podem trabalhar de forma mais inteligente, acompanhando a rotina e evitando que equipamentos permaneçam ligados quando não são necessários."
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+        "Controle da iluminação",
+        "Automação de equipamentos",
+        "Monitoramento do consumo",
+        "Desligamentos automáticos",
+        "Integração entre diferentes sistemas da residência"
+        ]
+        },
+        {
+        "tipo": "imagem",
+        "src": "img/blog/energia2.jfif",
+        "legenda": "Tecnologia e automação podem ajudar a tornar o consumo de energia mais inteligente"
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Mais controle também é mais tranquilidade"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Quando os sistemas da casa trabalham de forma integrada, fica mais fácil entender o que está acontecendo e evitar desperdícios que passam despercebidos no dia a dia."
         }
+        ]
+        }
+
 ]
 

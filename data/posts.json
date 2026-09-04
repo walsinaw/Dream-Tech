@@ -196,7 +196,7 @@
         "titulo": "Você sabe quanta energia sua casa desperdiça?",
         "categoria": "Automação",
         "data": "2026-09-04",
-        "imagem": "img/blog/energia.webp",
+        "imagem": "../giimg/blog/energia.webp",
         "resumo": "Nem sempre o desperdício de energia está onde a gente imagina. Alguns hábitos e equipamentos podem continuar consumindo sem que você perceba — e a tecnologia pode ajudar a ter mais controle sobre isso.",
         "conteudo": [
         {
@@ -223,7 +223,7 @@
         },
         {
         "tipo": "imagem",
-        "src": "img/blog/energia2.jfif",
+        "src": "../img/blog/energia2.jfif",
         "legenda": "Tecnologia e automação podem ajudar a tornar o consumo de energia mais inteligente"
         },
         {
